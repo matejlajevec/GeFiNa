@@ -9,7 +9,22 @@
     <script src="GeFiNa.js"></script>
 </head>
 <body>
-    <h2 id="test_status"></h2>
+    <style>
+    input[type=number] {
+      width: 10%;
+      border: 1px solid black;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+    </style>
+   <h2 id="test_status"></h2>
     <div id="test"></div>
 </body>
 </html>
